@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color:#a6b07e;
+    height: 100vh;
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 0;
+}
+.main-div h3{
+    font-size: 30px;
+    display: flex;
+}
+.main-div input{
+    border: none;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 20px;
+    min-width: 10%;
+}
+.operazioni{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    max-width: 10vw;
+    background-color: #32965d;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 2px;
+    flex-grow: 1;
+    border: 1px solid red;
+}
+
+footer{
+    position: relative;
+    top: 120px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .button{
+        max-width: 35vw;
+    }
+  }
+
+
+/*---------------------------------------*/
+/*--------------WebCounter---------------*/
+/*---------------------------------------*/
+.webCounter{
+    display: flex;
+}
+.website-counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.website-counter {
+    background-color: #867652;
+    height: 50px;
+    width: 50px;
+    color: white;
+    border-radius: 50px;
+    font-size: 20px;
+    margin: 1vh;
+  }
+
+/*---------------------------------------*/
+/*-------------👑 Login 👑--------------*/
+/*---------------------------------------*/
+.logbtn{
+    border: none;
+    margin: 1vh;    
+    background-color: #867652;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    z-index: 12;
+}
+.butt{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+.logindiv{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.loginput{
+    overflow-x: hidden;
+    border: 1px solid gray;
+    margin: 1vh;
+    padding: 20px;
+    border-radius:5px ;
+}
+
+.posizione{
+    display: none;
+}

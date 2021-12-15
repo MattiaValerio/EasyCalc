@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&libraries=geometry"> </script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/tab_logo.svg" type="image/x-icon">        
+    <title>EasyCalc</title>
+</head>
+<body>
+    <div class="butt">
+        <div class="di">
+            <button  class="logbtn" onclick="login()">👑 Login 👑</button>
+        </div>
+        <div class="webCounter">
+            <div class="website-counter"></div>
+        </div>
+    </div>
+
+    <div class="main-div">
+        <h3>WRITE<br>YOUR<br>NUMBERS</h3>
+        <input type="number" id="n1" placeholder="number 1..." value="">
+        <input type="number" id="n2" placeholder="number 2..." value="">
+        
+        <div class="operazioni">
+            <button class="button" onclick="somma()">Somma</button>
+            <button class="button" onclick="sottrazione()">Sottrai</button>
+        </div>
+        <div class="operazioni">
+            <button class="button" onclick="moltiplicazione()">Moltiplica</button>
+            <button class="button" onclick="divisione()">Dividi</button>
+        </div>
+        <div class="operazioni">
+            <button class="button" onclick="bruh()">
+                Bruh
+                <audio src="./audio/bruh.mp3" id="bruh"></audio>
+            </button>
+                <button class="button" onclick="mac()">
+                    Mac
+                    <audio src="./audio/helicopter.mp3" id="mac" class=""></audio>
+                </button>
+        </div>
+        <div class="operazioni">
+                <button class="button" onclick="orario()">Che ora è?</button>
+                <button class="button" id="tobac">Posizione bella</button>
+        </div>
+
+        
+
+        <footer>Created by Mattia Valerio</footer>
+    </div>
+
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+<!--MattiaValerio-->
