@@ -2,7 +2,8 @@
 //------------------------------------------------------------
 //------------------------EasyCalc----------------------------
 //------------------------------------------------------------
-function somma(n1, n2){
+
+function somma(){
   let empty = '';
   let n1 = Number(document.getElementById("n1").value);
   let n2 = Number(document.getElementById("n2").value);
