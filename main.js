@@ -164,9 +164,12 @@ function orario(){
   let date = new Date();
   let h = date.getHours();
   let m = date.getMinutes();
-  let ora = 'Sono le:  ' + h + ':' + m;
+  let ora = 'Sono le ' + h + ':' + m;
 
- 
+  if(m<=9){
+    ora = 'Sono le ' + h + ':0' + m;
+  }
+
   Swal.fire({
     title: ora,
     icon: 'success',
