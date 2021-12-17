@@ -51,6 +51,7 @@ body{
     justify-content: space-around;
     align-items: center;
     background-color: #74d0f6;
+    min-height: 92vh;
 }
 
 .animation{
