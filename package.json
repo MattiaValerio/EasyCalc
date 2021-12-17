@@ -9,6 +9,7 @@
   "author": "Mattia Valerio",
   "license": "ISC",
   "dependencies": {
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "swiper": "^7.3.3"
   }
 }

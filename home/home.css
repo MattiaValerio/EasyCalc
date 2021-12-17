@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main{
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+body{
+    background-color: #74d0f6;
+}
+/*------------------------------------------------
+----------------------NAVBAR----------------------
+--------------------------------------------------*/
+
+.nav-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5vh;
+    margin: 0.5vw;
+    margin: 10px;
+    background-color: #071633;
+    border-radius:20px ;
+    color: #74d0f6;
+    box-shadow: -3px -3px #04102723;
+}
+
+.nav-link li{
+    list-style: none;
+    display: inline;
+    padding: 20px;
+    font-size: 20px;
+}
+.nav-link a{
+    color: #74d0f6;
+    text-decoration: none;
+}
+
+
+/*------------------------------------------------
+-----------------------BODY-----------------------
+--------------------------------------------------*/
+.body-main{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #74d0f6;
+}
+
+.animation{
+    width: 60vh;
+}
+
+.title{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 3vh;
+}
+
+.projects-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:50%;
+    height: 50%;
+}
+.p-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #071633  ;
+    width: 100%;
+    margin: 10px;
+    height:6.5vh;
+    border-radius: 20px;
+    box-shadow: -3px -3px #04102723;
+}
+.button a{
+    text-decoration: none;
+    color: #74d0f6;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    .logo{
+        font-size: 1.5vh;
+    }
+
+    .nav-link {
+        display: none;
+    }
+    .body-main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .title{
+        font-size:15px ;
+    }
+    .projects-list{
+       margin-top: 10%; 
+    }
+
+    .animation{
+        width: 90vw;
+    }
+
+    .projects-list{
+        width:100%;
+
+    }
+
+}
