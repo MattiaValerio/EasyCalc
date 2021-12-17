@@ -7,3 +7,11 @@ gsap.from(".animation", {
     y: 13,
     duration: 0.8
   });*/
+
+  function contacts(){
+    Swal.fire({
+        title: "Contati",
+        icon: 'info',
+        confirmButtonText: 'Ok'
+      }) 
+  }
