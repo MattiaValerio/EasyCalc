@@ -124,12 +124,15 @@ body{
     }
 
     .animation{
-        width: 90vw;
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+        margin-top: -5px;
     }
 
     .projects-list{
         width:100%;
-
+        margin-top: -5px;
     }
 
 }

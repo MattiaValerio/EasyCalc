@@ -8,3 +8,11 @@ gsap.from(".animation", {
     duration: 0.8
   });*/
 
+  function contact(){
+    Swal.fire({
+      title: 'result',
+      icon: 'success',
+      confirmButtonText: 'Ok'
+    })
+  }
+
