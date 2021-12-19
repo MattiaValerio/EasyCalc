@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .main{
@@ -52,6 +52,7 @@ body{
     align-items: center;
     background-color: #74d0f6;
     height: 92vh;
+    
 }
 
 .animation{
@@ -60,7 +61,6 @@ body{
 
 .title{
     color: white;
-    font-family: 'Montserrat', sans-serif;
     margin-bottom: 3vh;
 }
 
@@ -93,6 +93,7 @@ body{
     box-shadow: -3px -3px #04102723;
     font-size: 20px;
     border: none;
+    font-family: 'Raleway', sans-serif;
 }
 .button a{
     text-decoration: none;
@@ -133,6 +134,7 @@ body{
     
     .logo{
         font-size: 1.5vh;
+        font-family: 'Raleway', sans-serif;
     }
 
     .nav-link {
