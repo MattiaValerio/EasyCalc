@@ -1,4 +1,7 @@
-gsap.from(".animation", { 
+if (window.matchMedia("(max-width: 767px)").matches) {
+  console.log('schermo piccolo')
+}else{
+  gsap.from(".animation", { 
     opacity:-2, 
     duration: 1,
 });
@@ -12,6 +15,7 @@ gsap.from(".", {
     opacity:-2, 
     duration: 1,
 });
+}
 
 function contact(){
     Swal.fire({
