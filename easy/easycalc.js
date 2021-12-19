@@ -133,27 +133,26 @@ counterContainer.innerHTML = visitCount;
 //------------------------------------------------------------
 //--------------------SOUND BUTTONS---------------------------
 //------------------------------------------------------------
-
 function bruh(){
-  let bruh = document.getElementById('bruh');
-  bruh.play()
-  /*function play(){
-    bruh.play()
+  let bru = document.getElementById('bruh');
+
+  if(bru.play() == true){
+    bru.addEventListener('click', function(){
+      bru.pause()
+    })
   }
-
-  function pause(){
-    bruh.pause()
-  }
-  play()*/
-
-
 }
 
-function mac(){
-  let heli = document.getElementById('mac').play();
-  let stopHeli = heli.addEventListener("click");
+let elibtn = document.getElementById('elibtn');
+let eli = document.getElementById('eli')   
 
-}
+elibtn.addEventListener("click",()=>{
+    eli.play();
+    elibtn.addEventListener("click", ()=>{
+      eli.pause();
+    })
+})      
+
 
 //------------------------------------------------------------
 //--------------------LOGIN BUTTON----------------------------
