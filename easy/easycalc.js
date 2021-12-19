@@ -133,15 +133,15 @@ counterContainer.innerHTML = visitCount;
 //------------------------------------------------------------
 //--------------------SOUND BUTTONS---------------------------
 //------------------------------------------------------------
-function bruh(){
-  let bru = document.getElementById('bruh');
+let brubtn = document.getElementById("brubtn");
+let bru = document.getElementById("bru");
 
-  if(bru.play() == true){
-    bru.addEventListener('click', function(){
-      bru.pause()
-    })
-  }
-}
+brubtn.addEventListener("click", ()=>{
+  bru.play();
+  bru.addEventListener("click", ()=>{
+    bru.pause();
+  })
+})
 
 let elibtn = document.getElementById('elibtn');
 let eli = document.getElementById('eli')   
@@ -149,7 +149,7 @@ let eli = document.getElementById('eli')
 elibtn.addEventListener("click",()=>{
     eli.play();
     elibtn.addEventListener("click", ()=>{
-      eli.pause();
+      eli.pause()
     })
 })      
 
