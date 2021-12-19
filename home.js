@@ -1,18 +1,33 @@
 gsap.from(".animation", { 
     opacity:-2, 
-    duration: 0.7,
-  });
+    duration: 1,
+});
 
-/*gsap.from(".button", {
-    y: 13,
-    duration: 0.8
-  });*/
+gsap.from(".projects-list", {
+    x: 713,
+    duration: 0.7
+});  
 
-  function contact(){
+gsap.from(".", { 
+    opacity:-2, 
+    duration: 1,
+});
+
+function contact(){
     Swal.fire({
-      title: 'result',
-      icon: 'success',
+      title: 'Dove contattarmi',
+      icon: 'info',
+      html:`
+      <div class="alert-contact">
+      <button class="alert-mail">GitHub</button>
+      <button class="alert-mail">Twitter</button>
+      </div>
+      <div class="alert-contact">
+      <button class="alert-mail">Instagram</button>
+      <button class="alert-mail">Google+</button>
+      </div>
+      `,
       confirmButtonText: 'Ok'
-    })
-  }
+  })
+}  
 
