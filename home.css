@@ -86,7 +86,7 @@ body{
     align-items: center;
     background-color: #071633;
     color: #74d0f6;
-    width: 100%;
+    width: 100vw;
     margin: 10px;
     height:6.5vh;
     border-radius: 20px;
@@ -101,20 +101,23 @@ body{
 }
 .alert-contact{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    height: 5vh;
-    margin: 10px;
+    height: 6vh;
+    margin: 5px;
 }
 .alert-mail{
     font-size: 20px;
     padding: 13px;
-    margin: 10px;
-    width: 10vw;
     background-color: #74d0f6;
     color: white;
+    width: 16vh;
     border-radius: 10px;
     border: none;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
 }
 
 

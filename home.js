@@ -24,7 +24,7 @@ function contact(){
       </div>
       <div class="alert-contact">
       <button class="alert-mail">Instagram</button>
-      <button class="alert-mail">Google+</button>
+      <button class="alert-mail">E-mail</button>
       </div>
       `,
       confirmButtonText: 'Ok'
