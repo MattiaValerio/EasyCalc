@@ -6,7 +6,7 @@
 
 body{
     font-family: 'Raleway', sans-serif;
-    background-color:#a6b07e;
+    background-color:#74d0f6;
     height: 100vh;
 }
 .main-div{
@@ -45,7 +45,7 @@ body{
     justify-content: center;
     padding: 15px;
     max-width: 15vw;
-    background-color: #32965d;
+    background-color: #071633;
     border: none;
     color: white;
     border-radius: 5px;
@@ -83,7 +83,7 @@ footer{
     align-items: center;
 }
 .website-counter {
-    background-color: #867652;
+    background-color: #071633;
     height: 50px;
     width: 50px;
     color: white;
@@ -98,7 +98,7 @@ footer{
 .logbtn{
     border: none;
     margin: 1vh;    
-    background-color: #867652;
+    background-color: #071633;
     padding: 10px;
     border-radius: 20px;
     color: white;

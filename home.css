@@ -26,7 +26,7 @@ body{
     margin: 10px;
     background-color: #071633;
     border-radius:20px ;
-    color: #74d0f6;
+    color: #fff;
     box-shadow: -3px -3px #04102723;
 }
 
@@ -37,7 +37,7 @@ body{
     font-size: 20px;
 }
 .nav-link a{
-    color: #74d0f6;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -55,8 +55,7 @@ body{
 }
 
 .animation{
-    min-width: 55vh;
-    max-width: 60vh;
+    width: 50vh;
 }
 
 .title{
@@ -86,18 +85,18 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #071633;
-    color: #74d0f6;
+    color: #fff;
     width: 100vw;
     margin: 10px;
     height:6.5vh;
-    border-radius: 20px;
+    border-radius: 5px;
     box-shadow: -3px -3px #04102723;
     font-size: 20px;
     border: none;
 }
 .button a{
     text-decoration: none;
-    color: #74d0f6;   
+    color: #fff;   
 
 }
 
@@ -154,8 +153,7 @@ body{
     }
 
     .animation{
-        max-width: 60vh;
-        min-width: 55vh;
+        width: 40vh;
     }
 
     .projects-list{
