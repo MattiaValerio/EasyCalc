@@ -99,13 +99,21 @@ body{
     color: #74d0f6;   
 
 }
+
+.main-alert{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 .alert-contact{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     height: 6vh;
-    margin: 5px;
+    width: 16vw;
+    margin: 10px;
 }
 .alert-mail{
     font-size: 20px;
@@ -116,12 +124,12 @@ body{
     border-radius: 10px;
     border: none;
     display: flex;
-    padding: 10px;
     justify-content: space-around;
+    margin: 10px;
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 767px) {
     
     .logo{
         font-size: 1.5vh;
@@ -154,6 +162,17 @@ body{
     .projects-list{
         width:100%;
         margin-top: -5px;
+    }
+
+    .main-alert{
+        display: flex;
+    }
+    .alert-contact{
+        width: 100%;
+        
+    }
+    .alert-mail{
+        font-size: 19px;
     }
 
 }
