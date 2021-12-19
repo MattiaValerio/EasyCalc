@@ -2,7 +2,7 @@
 //------------------------ANIMAZIONI--------------------------
 //------------------------------------------------------------
 if (window.matchMedia("(max-width: 767px)").matches) {
-  console.log('schermo piccolo')
+  console.log('schermo grande')
 }else{
   gsap.from(".animation", { 
     opacity:-2, 

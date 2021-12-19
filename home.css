@@ -51,11 +51,12 @@ body{
     justify-content: space-around;
     align-items: center;
     background-color: #74d0f6;
-    min-height: 92vh;
+    height: 92vh;
 }
 
 .animation{
-    width: 60vh;
+    min-width: 55vh;
+    max-width: 60vh;
 }
 
 .title{
@@ -129,7 +130,7 @@ body{
 }
 
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
     
     .logo{
         font-size: 1.5vh;
@@ -153,10 +154,8 @@ body{
     }
 
     .animation{
-        width: 100vw;
-        padding: 0;
-        margin: 0;
-        margin-top: -5px;
+        max-width: 60vh;
+        min-width: 55vh;
     }
 
     .projects-list{
