@@ -138,9 +138,9 @@ let bru = document.getElementById("bru");
 
 brubtn.addEventListener("click", ()=>{
   bru.play();
-  bru.addEventListener("click", ()=>{
-    bru.pause();
-  })
+  //bru.addEventListener("click", ()=>{
+    //bru.pause();
+  //})
 })
 
 let elibtn = document.getElementById('elibtn');
@@ -148,9 +148,9 @@ let eli = document.getElementById('eli')
 
 elibtn.addEventListener("click",()=>{
     eli.play();
-    elibtn.addEventListener("click", ()=>{
-      eli.pause()
-    })
+    //elibtn.addEventListener("click", ()=>{
+      //eli.pause()
+    //})
 })      
 
 
