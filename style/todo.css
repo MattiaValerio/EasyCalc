@@ -148,11 +148,14 @@ input:focus{
     height: 20vh;
 }
 .homebtn{
-    width: 100px;
+    width: 150px;
     height: 5vh;
     border-radius:15px;
     border:none;
     background-color: #071633;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .homebtn a{
