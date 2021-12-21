@@ -137,6 +137,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: none;
 }
 .alert-mail:hover{
     cursor: pointer;
