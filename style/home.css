@@ -118,7 +118,6 @@ body{
     align-items: center;
     width: 100%;
     height: 20vh;
-    border: 1px solid red;
 }
 .alert-contact{
     display: flex;
@@ -129,7 +128,6 @@ body{
     width: 100%;
 }
 .alert-mail{
-    border: 1px solid red;
     padding: 13px;
     background-color: #74d0f6;
     color: white;
