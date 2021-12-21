@@ -15,6 +15,9 @@ function clock(){
     if(secondi<=9){
         secondi = `0${secondi}`
     }
+    if(minuti<=9){
+        minuti = `0${minuti}`
+    }
 
     let clock = ora+':'+minuti+':'+secondi;
     let calendario = giorno +' '+mese+' '+anno
