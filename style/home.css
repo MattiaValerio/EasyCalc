@@ -40,6 +40,9 @@ body{
     color: #fff;
     text-decoration: none;
 }
+.nav-link a:hover{
+    cursor: pointer;
+}
 
 
 /*------------------------------------------------
@@ -113,30 +116,35 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    height: 20vh;
+    border: 1px solid red;
 }
 .alert-contact{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    height: 6vh;
-    width: 16vw;
-    margin: 10px;
+    height: 100%;
+    width: 100%;
 }
 .alert-mail{
-    font-size: 20px;
+    border: 1px solid red;
     padding: 13px;
     background-color: #74d0f6;
     color: white;
-    width: 16vh;
+    width: 100vw;
     border-radius: 10px;
-    border: none;
+    margin: 5px;
     display: flex;
-    justify-content: space-around;
-    margin: 10px;
+    justify-content: center;
+    align-items: center;
 }
 .alert-mail:hover{
     cursor: pointer;
+}
+.alert-mail p{
+    font-size: 2.3vh;
 }
 
 

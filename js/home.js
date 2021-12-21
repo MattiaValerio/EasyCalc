@@ -30,12 +30,12 @@ function contact(){
       html:`
       <div class="main-alert">
         <div class="alert-contact">
-          <button class="alert-mail">GitHub</button>
-          <button class="alert-mail">Twitter</button>
+          <button class="alert-mail"><p>GitHub</p></button>
+          <button class="alert-mail"><p>Twitter</p></button>
         </div>
         <div class="alert-contact">
-          <button class="alert-mail">Instagram</button>
-          <button class="alert-mail">E-mail</button>
+          <button class="alert-mail"><p>Instagram</p></button>
+          <button class="alert-mail"><p>E-mail</p></button>
         </div>
       </div>
       `,
