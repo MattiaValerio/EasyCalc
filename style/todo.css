@@ -18,7 +18,7 @@ body{
     width: 100vw;
 }
 .todo{
-    width: 60vw;
+    min-width: 60vw;
     height: 80vh;
 }
 ul {
