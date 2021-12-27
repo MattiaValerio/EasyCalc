@@ -15,7 +15,7 @@ function countDown(){
     let sec = Math.floor(totals) %60;
 
     dBtn.innerHTML = gg;
-    hBtn.innerHTML = ore;
+    hBtn.innerHTML = addz(ore);
     mBtn.innerHTML = addz(min);
     sBtn.innerHTML = addz(sec);
 }
