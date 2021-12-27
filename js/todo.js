@@ -58,3 +58,11 @@ function newElement() {
     }
   }
 } 
+
+//Add delete btn on the new li
+let delbtn = document.getElementById("delbtn").style;
+
+delbtn.display="none";
+function delet(){
+  console.log('pino!')
+}
