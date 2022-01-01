@@ -5,7 +5,7 @@ const sBtn = document.getElementById('s');
 
 function countDown(){
 
-    const ny = new Date('January 1 2022');
+    const ny = new Date('January 1 2023');
     const d = new Date;
     const totals = (ny - d) / 1000; //Secondi totali 
 
